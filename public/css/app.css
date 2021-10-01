@@ -20,6 +20,10 @@ a:hover {
   margin: 0 auto;
 }
 
+.w-50 {
+  width: 50%;
+}
+
 header .header-top {
   background-color: #0282f9;
   color: white;
@@ -93,4 +97,42 @@ header .header-jumbo {
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
+}
+
+footer {
+  background-image: url("../images/footer-bg.jpg");
+  background-size: cover;
+}
+footer .container {
+  display: flex;
+  align-items: center;
+  height: 600px;
+  color: white;
+}
+footer .container div.links {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: space-around;
+  max-height: 100%;
+}
+footer .container div.links > div {
+  margin: 15px 0;
+}
+footer .container div.links > div h3 {
+  margin: 10px 0;
+}
+footer .container div.links li {
+  list-style-type: none;
+  margin: 10px 0;
+}
+footer .container div.links a {
+  color: #8d8d8d;
+}
+footer .container figure {
+  background-image: url("../images/dc-logo-bg.png");
+  height: 100%;
+  background-size: cover;
+  background-position: center;
 }

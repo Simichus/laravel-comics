@@ -11,7 +11,12 @@
 </head>
 
 <body>
-    <?php require('/Laravel/laravel-comics/resources/views/partials/header.blade.php') ?>
+    @include('partials.header')
+    <main>
+        @yield('content')
+    </main>
+@include('partials.footer')
+
 </body>
 
 </html>
