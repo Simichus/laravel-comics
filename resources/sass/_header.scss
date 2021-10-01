@@ -1,0 +1,89 @@
+header {
+    .header-top {
+        background-color: $main-color;
+        color: $white;
+        font-size: 14px;
+        font-weight: bold;
+        .container {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+
+            div {
+                padding: 10px;
+                padding-left: 20px;
+            }
+        }
+    }
+
+    .header-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 0;
+        height: 100px;
+
+        img {
+            height: 100%;
+        }
+
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            li {
+                list-style-type: none;
+
+                a {
+                    display: inline-block;
+                    color: #000000;
+                    font-weight: bold;
+                    line-height: 100px;
+                    padding: 0 15px;
+                    position: relative;
+
+                    &:hover:after {
+                        content: "";
+                        height: 5px;
+                        width: 100%;
+                        background-color: $main-color;
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                    }
+
+                    &:hover {
+                        color: $main-color;
+                    }
+                }
+            }
+        }
+
+        .fas {
+            color: $main-color;
+        }
+
+        .search {
+            border-bottom: 2px solid $main-color;
+
+            input {
+                border: none;
+                padding: 5px;
+                text-align: right;
+
+                &:focus-visible {
+                    outline: none;
+                }
+            }
+        }
+    }
+
+    .header-jumbo {
+        height: 500px;
+        background-image: url("../images/jumbotron.jpg");
+        background-size: cover;
+        background-position: top center;
+        background-repeat: no-repeat;
+    }
+}

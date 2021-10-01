@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap);* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+header .header-top {
+  background-color: #0282f9;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+header .header-top .container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+header .header-top .container div {
+  padding: 10px;
+  padding-left: 20px;
+}
+header .header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  height: 100px;
+}
+header .header-nav img {
+  height: 100%;
+}
+header .header-nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .header-nav ul li {
+  list-style-type: none;
+}
+header .header-nav ul li a {
+  display: inline-block;
+  color: #000000;
+  font-weight: bold;
+  line-height: 100px;
+  padding: 0 15px;
+  position: relative;
+}
+header .header-nav ul li a:hover:after {
+  content: "";
+  height: 5px;
+  width: 100%;
+  background-color: #0282f9;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+header .header-nav ul li a:hover {
+  color: #0282f9;
+}
+header .header-nav .fas {
+  color: #0282f9;
+}
+header .header-nav .search {
+  border-bottom: 2px solid #0282f9;
+}
+header .header-nav .search input {
+  border: none;
+  padding: 5px;
+  text-align: right;
+}
+header .header-nav .search input:focus-visible {
+  outline: none;
+}
+header .header-jumbo {
+  height: 500px;
+  background-image: url("../images/jumbotron.jpg");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
