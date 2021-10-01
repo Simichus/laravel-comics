@@ -24,6 +24,19 @@ a:hover {
   width: 50%;
 }
 
+.load-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.load-more a {
+  color: white;
+  padding: 10px 15px;
+  background-color: #0282f9;
+  font-size: 20px;
+  font-weight: bold;
+}
+
 header .header-top {
   background-color: #0282f9;
   color: white;
@@ -135,4 +148,39 @@ footer .container figure {
   height: 100%;
   background-size: cover;
   background-position: center;
+}
+
+#comics {
+  background-color: #1c1c1c;
+  color: white;
+}
+#comics .container {
+  position: relative;
+  top: -26px;
+}
+#comics h2 {
+  padding: 10px 15px;
+  background-color: #0282f9;
+  display: inline-block;
+}
+#comics .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  padding: 50px 0;
+}
+#comics .col {
+  width: 16.6666666667%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 250px;
+  color: white;
+}
+#comics .col h3 {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
