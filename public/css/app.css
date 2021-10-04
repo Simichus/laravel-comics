@@ -272,8 +272,7 @@ footer .container figure {
 #comic .comic-info .info .specs h2 {
   color: #2d98fc;
 }
-#comic .comic-info .info .specs .series,
-#comic .comic-info .info .specs .us-price {
+#comic .comic-info .info .specs .series {
   border-top: 1px solid #8d8d8d;
 }
 #comic .comic-info .info .specs .series,
