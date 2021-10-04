@@ -184,3 +184,109 @@ footer .container figure {
   margin-bottom: 20px;
   margin-top: 10px;
 }
+
+#comic .poster {
+  background-color: #0282f9;
+}
+#comic .poster .container {
+  height: 75px;
+  position: relative;
+}
+#comic .poster .container img {
+  position: absolute;
+  top: -250px;
+  border: 1px solid white;
+}
+#comic .description {
+  display: flex;
+  padding: 100px 0;
+}
+#comic .description .comic-desc {
+  flex-basis: 70%;
+}
+#comic .description .comic-desc h1 {
+  color: #2d98fc;
+  margin-bottom: 30px;
+}
+#comic .description .comic-desc .price-bar {
+  background-color: lightgreen;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#comic .description .comic-desc .price-bar .price-info {
+  padding: 20px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+}
+#comic .description .comic-desc .price-bar .avbl-check {
+  padding: 20px 10px;
+  border-left: 1px solid #8d8d8d;
+}
+#comic .description .comic-desc p {
+  margin: 10px 0;
+}
+#comic .description .adv {
+  flex-basis: 30%;
+}
+#comic .description .adv .advertisement {
+  text-align: right;
+}
+#comic .description .adv img {
+  width: 100%;
+}
+#comic .comic-info {
+  background-color: #fff7e9;
+}
+#comic .comic-info .info {
+  display: flex;
+}
+#comic .comic-info .info .talent {
+  width: 50%;
+  padding: 20px 20px;
+}
+#comic .comic-info .info .talent h2 {
+  color: #2d98fc;
+}
+#comic .comic-info .info .talent .artists {
+  border-top: 1px solid #8d8d8d;
+}
+#comic .comic-info .info .talent .artists,
+#comic .comic-info .info .talent .writers {
+  margin-top: 20px;
+  padding: 20px 0;
+  border-bottom: 1px solid #8d8d8d;
+  display: flex;
+  justify-content: space-between;
+}
+#comic .comic-info .info .talent .artists h3,
+#comic .comic-info .info .talent .writers h3 {
+  width: 40%;
+}
+#comic .comic-info .info .specs {
+  width: 50%;
+  padding: 20px 20px;
+}
+#comic .comic-info .info .specs h2 {
+  color: #2d98fc;
+}
+#comic .comic-info .info .specs .series,
+#comic .comic-info .info .specs .us-price {
+  border-top: 1px solid #8d8d8d;
+}
+#comic .comic-info .info .specs .series,
+#comic .comic-info .info .specs .us-price,
+#comic .comic-info .info .specs .sales {
+  margin-top: 20px;
+  padding: 20px 0;
+  border-bottom: 1px solid #8d8d8d;
+  display: flex;
+  justify-content: space-between;
+}
+#comic .comic-info .info .specs .series h3,
+#comic .comic-info .info .specs .us-price h3,
+#comic .comic-info .info .specs .sales h3 {
+  width: 40%;
+}

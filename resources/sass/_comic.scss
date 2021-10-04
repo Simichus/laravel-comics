@@ -1,0 +1,119 @@
+#comic {
+    .poster {
+        background-color: $main-color;
+        .container {
+            height: 75px;
+            position: relative;
+            img {
+                position: absolute;
+                top: -250px;
+                border: 1px solid $white;
+            }
+        }
+    }
+
+    .description {
+        display: flex;
+        padding: 100px 0;
+
+        .comic-desc {
+            flex-basis: 70%;
+            h1 {
+                color: $main-color-light;
+                margin-bottom: 30px;
+            }
+
+            .price-bar {
+                background-color: lightgreen;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .price-info {
+                    padding: 20px 10px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    flex-grow: 1;
+                }
+                .avbl-check {
+                    padding: 20px 10px;
+                    border-left: 1px solid $gray;
+                }
+            }
+
+            p {
+                margin: 10px 0;
+            }
+        }
+        .adv {
+            flex-basis: 30%;
+
+            .advertisement {
+                text-align: right;
+            }
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .comic-info {
+        background-color: rgb(255, 247, 233);
+        .info {
+            display: flex;
+
+            .talent {
+                width: 50%;
+                padding: 20px 20px;
+
+                h2 {
+                    color: $main-color-light;
+                }
+
+                .artists {
+                    border-top: 1px solid $gray;
+                }
+
+                .artists,
+                .writers {
+                    margin-top: 20px;
+                    padding: 20px 0;
+                    border-bottom: 1px solid $gray;
+                    display: flex;
+                    justify-content: space-between;
+
+                    h3 {
+                        width: 40%;
+                    }
+                }
+            }
+            .specs {
+                width: 50%;
+                padding: 20px 20px;
+
+                h2 {
+                    color: $main-color-light;
+                }
+
+                .series,
+                .us-price {
+                    border-top: 1px solid $gray;
+                }
+
+                .series,
+                .us-price,
+                .sales {
+                    margin-top: 20px;
+                    padding: 20px 0;
+                    border-bottom: 1px solid $gray;
+                    display: flex;
+                    justify-content: space-between;
+
+                    h3 {
+                        width: 40%;
+                    }
+                }
+            }
+        }
+    }
+}

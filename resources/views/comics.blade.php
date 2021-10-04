@@ -8,7 +8,7 @@
             <h2>Current series</h2>
             <div class="row">
                 @foreach($comics as $comic)
-                <a href="" class="col">
+                <a href="{{route('comic', $id = $loop->index)}}" class="col">
                     <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}">
                     <h3>{{$comic['title']}}</h3>
                 </a >
